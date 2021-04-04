@@ -44,24 +44,13 @@ exports[`properly escapes quotes 1`] = `
 </a>
 `;
 
-exports[`renders as an anchor when no page is set 1`] = `
-<a
-  className="normal"
-  href="#"
-  onMouseEnter={[Function]}
-  onMouseLeave={[Function]}
->
-  Facebook
-</a>
-`;
-
 exports[`renders correctly 1`] = `
 <a
   className="normal"
-  href="http://www.facebook.com"
+  href="http://www.instagram.com"
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
 >
-  Facebook
+  Instagram
 </a>
 `;
