@@ -15,7 +15,8 @@
     "react-test-renderer": "*"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "testWatch": "jest --watchAll"
   },
   "jest": {
     "testEnvironment": "node"
